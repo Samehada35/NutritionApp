@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="15dp">
+        <shape android:shape="line">
+            <stroke
+                android:width="3dp"
+                android:color="@color/backgrounddark" />
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+    <item
+        android:width="19dp"
+        android:height="19dp"
+        android:bottom="25dp"
+        android:drawable="@drawable/chili1"
+        android:gravity="left">
+
+    </item>
+    <item
+        android:width="19dp"
+        android:height="19dp"
+        android:bottom="25dp"
+        android:drawable="@drawable/chili2"
+        android:gravity="center"
+        android:right="12dp">
+
+    </item>
+    <item
+        android:width="19dp"
+        android:height="19dp"
+        android:bottom="25dp"
+        android:drawable="@drawable/chili3"
+        android:gravity="right">
+
+    </item>
+</layer-list>
